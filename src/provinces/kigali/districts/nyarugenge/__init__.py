@@ -10,7 +10,6 @@ from .sectors.nyamirambo import nyamirambo
 from .sectors.rwezamenyo import rwezamenyo
 
 nyarugenge = {
-    'Nyarugenge': nyarugenge,
     'Gitega': gitega,
     'Kanyinya': kanyinya,
     'Kigali': kigali,
@@ -19,5 +18,6 @@ nyarugenge = {
     'Muhima': muhima,
     'Nyakabanda': nyakabanda,
     'Nyamirambo': nyamirambo,
+    'Nyarugenge': nyarugenge,
     'Rwezamenyo': rwezamenyo
 }
