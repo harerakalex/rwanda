@@ -12,7 +12,7 @@ from .sectors.ndera import ndera
 from .sectors.nduba import nduba
 from .sectors.remera import remera
 from .sectors.rusororo import rusororo
-from sectors.rutunga import rutunga
+from .sectors.rutunga import rutunga
 
 gasabo = {
     'Bumbogo': bumbogo,
