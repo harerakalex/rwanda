@@ -1,4 +1,4 @@
-from main import *
+from .main import *
 
 print('Get Provinces====', get_provinces())
 print('Get Districts====', get_districts('kiGali'))

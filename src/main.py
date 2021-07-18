@@ -1,4 +1,4 @@
-from provinces import provinces as data
+from .provinces import provinces as data
 
 def format_input(name: str) -> str:
     return name.strip().capitalize()
