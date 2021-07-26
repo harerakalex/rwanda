@@ -41,14 +41,13 @@ setup(
         'test': tests_require,
         'email': ['idna >= 2.0.0']
     },
-    packages=find_packages(),
+    packages=find_packages(include="*"),
     package_data={
         '': ['*.pyi', 'py.typed'],
     },
     entry_points={
         'console_scripts': [
-            'main=src:main'
         ],
     },
-    test_suite='tests.suite',
+    test_suite='rwanda.tests.suite',
 )

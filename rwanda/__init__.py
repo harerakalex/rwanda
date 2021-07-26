@@ -1,4 +1,12 @@
-from .main import *
+from .main import get_provinces, get_districts, get_sectors, get_cells, get_villages
+
+__all__ = [
+    'get_provinces',
+    'get_districts',
+    'get_sectors',
+    'get_cells',
+    'get_villages'
+]
 
 print('Get Provinces====', get_provinces())
 print('Get Districts====', get_districts('kiGali'))

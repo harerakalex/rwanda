@@ -1,6 +1,6 @@
 import unittest
 
-from src import get_provinces
+from rwanda import get_provinces
 
 class TestGetProvinceMethods(unittest.TestCase):
 
